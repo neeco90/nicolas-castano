@@ -1,0 +1,526 @@
+body {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  background-color: #6334B4; }
+
+header {
+  background-color: #33105C;
+  padding-top: 80px;
+  padding-bottom: 3%; }
+  header .iso {
+    width: 270px;
+    padding-top: 15px; }
+  header .soy .no-padd {
+    padding: 0 !important; }
+    header .soy .no-padd .title-soy {
+      text-align: center;
+      font-size: 4.5em;
+      margin: 0 !important; }
+  header .soy ul {
+    line-height: 1.9;
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 20px !important; }
+
+.big-h1 {
+  font-size: 13em;
+  color: #00e5ff;
+  font-weight: 300;
+  line-height: 0.6; }
+
+.medium-h1 {
+  color: #00e5ff;
+  font-weight: 600;
+  font-size: 4em;
+  line-height: 0.9; }
+
+.fsd .big-h1 {
+  text-align: right;
+  line-height: 0.8;
+  margin-left: 13px !important; }
+.fsd .medium-h1 {
+  color: #6334B4;
+  font-weight: 600;
+  font-size: 6em;
+  line-height: 0.9;
+  padding-left: 0 !important; }
+
+.down-btn {
+  padding: 0 !important;
+  position: absolute;
+  margin-left: 50%;
+  top: 565px; }
+  .down-btn a:hover {
+    background-color: white !important; }
+  .down-btn .btn-floating.btn-large i {
+    line-height: 60.5px !important;
+    color: #6334B4 !important; }
+    .down-btn .btn-floating.btn-large i:hover {
+      color: #6334B4 !important; }
+  .down-btn .material-icons {
+    font-size: 30px !important; }
+
+.what-is-fsd {
+  background-color: #6334B4;
+  position: relative;
+  padding: 150px 0; }
+  .what-is-fsd .title-wifsd {
+    height: 400px; }
+    .what-is-fsd .title-wifsd .big-h1 {
+      margin-left: -10px !important; }
+    .what-is-fsd .title-wifsd .medium-h1 {
+      margin: 0 !important; }
+    .what-is-fsd .title-wifsd .big {
+      font-size: 350px;
+      font-weight: 600;
+      position: relative;
+      top: -320px;
+      left: 280px; }
+  .what-is-fsd .content-wifsd {
+    font-size: 1.3em;
+    padding-left: 50px;
+    line-height: 1.2;
+    margin-top: 5%; }
+    .what-is-fsd .content-wifsd ul li {
+      color: #00e5ff;
+      font-weight: 300;
+      list-style-type: disc; }
+
+.whoiam {
+  background: #013240;
+  background-image: url("../img/headercyan.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  position: relative;
+  top: -8px;
+  height: 900px; }
+  .whoiam .base {
+    height: 400px;
+    position: relative;
+    top: 500px; }
+  .whoiam .container-card {
+    top: -220px;
+    position: relative; }
+    .whoiam .container-card .cv {
+      background-color: #33105C;
+      position: relative;
+      font-size: 1.8em;
+      padding: 150px 50px 100px 50px;
+      width: 70%;
+      margin-left: 15%;
+      top: 230px; }
+      .whoiam .container-card .cv .estudios {
+        text-align: right;
+        font-weight: 300; }
+      .whoiam .container-card .cv .lugares {
+        color: #6334B4; }
+  .whoiam .icon {
+    position: relative;
+    text-align: right;
+    top: -380px;
+    right: -3%; }
+    .whoiam .icon img {
+      width: 50%;
+      max-width: 100%; }
+  .whoiam .foto {
+    position: relative;
+    top: -380px;
+    width: 31.33333% !important;
+    left: -3%; }
+    .whoiam .foto img {
+      border: 11px solid #00e5ff;
+      max-width: 100%;
+      width: 83%; }
+
+.portfolio {
+  background-color: #33105C;
+  position: relative;
+  top: -40px;
+  padding: 100px 0; }
+  .portfolio .box {
+    padding: 25px;
+    border: 15px solid #33105C;
+    transition: 1000ms ease;
+    margin: 0 100px; }
+    .portfolio .box:hover {
+      border: 15px solid white;
+      transition: 1000ms ease; }
+    .portfolio .box .container .row {
+      margin: 0; }
+      .portfolio .box .container .row .up {
+        margin: -50px 0 50px 0; }
+    .portfolio .box .container .portfolio-title h1 {
+      font-weight: 300;
+      font-size: 8em;
+      line-height: 1.05;
+      margin: 0; }
+      .portfolio .box .container .portfolio-title h1 a {
+        color: #00e5ff; }
+        .portfolio .box .container .portfolio-title h1 a .bold {
+          color: #6334B4;
+          font-weight: 600;
+          font-size: 1.7em; }
+    .portfolio .box .container .aparte {
+      color: #00e5ff;
+      font-weight: 300;
+      font-size: 8em;
+      padding: 0 !important;
+      line-height: 1.5; }
+      .portfolio .box .container .aparte a {
+        color: #00e5ff; }
+    .portfolio .box .container .logo-behance {
+      margin-top: 40px;
+      margin-left: 30px; }
+
+.contacto {
+  padding: 100px 0;
+  background-image: url("../img/isotipo n-bkg.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+  .contacto .container {
+    width: 60% !important; }
+    .contacto .container span {
+      color: #00e5ff;
+      font-weight: 300; }
+    .contacto .container .social {
+      margin-top: 10%;
+      font-weight: 300; }
+      .contacto .container .social .badges li {
+        margin-bottom: 15px; }
+        .contacto .container .social .badges li:hover {
+          background-color: #33105C !important; }
+      .contacto .container .social .badges .colorthird {
+        color: #33105C; }
+        .contacto .container .social .badges .colorthird:hover {
+          color: #00e5ff !important; }
+      .contacto .container .social .links {
+        margin-top: 10px;
+        padding-left: 0 !important;
+        margin-left: 8%; }
+        .contacto .container .social .links a {
+          color: white; }
+          .contacto .container .social .links a:hover {
+            text-decoration: underline; }
+        .contacto .container .social .links li {
+          margin-bottom: 37px; }
+    .contacto .container form input, .contacto .container form textarea {
+      background-color: #33105C;
+      border: 0 !important;
+      padding: 0 15px;
+      font-weight: 300; }
+      .contacto .container form input:focus, .contacto .container form textarea:focus {
+        border: 0 !important;
+        box-shadow: none !important; }
+    .contacto .container form textarea {
+      height: 200px;
+      padding-top: 10px; }
+    .contacto .container form input {
+      height: 30px;
+      width: 95%; }
+    .contacto .container form .send {
+      margin-top: 4%; }
+      .contacto .container form .send .cyan.accent-3:hover {
+        background-color: white !important; }
+      .contacto .container form .send .colorthird {
+        color: #33105C; }
+        .contacto .container form .send .colorthird:hover {
+          color: #6334B4 !important; }
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #E4E4E4; }
+
+.mail-ok-bkg {
+  background-image: url("../img/isotipo n-bkg.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -50px;
+  background-size: 80%; }
+  .mail-ok-bkg .mail-ok-container {
+    margin-top: 10%; }
+    .mail-ok-bkg .mail-ok-container .mail-successful {
+      background-color: #33105C;
+      width: 70%;
+      padding: 5% !important; }
+
+/*-------------------------------INICIO DE MEDIA QUERIES--------------------------------------*/
+@media screen and (max-width: 1280px), (max-width: 1366px) {
+  .whoiam .base {
+    top: 470px; }
+  .whoiam .container-card {
+    top: -220px; }
+    .whoiam .container-card .cv {
+      width: 75%; }
+  .whoiam .icon img {
+    width: 60%; }
+  .whoiam .foto img {
+    width: 100%; }
+  .whoiam .escudo {
+    margin-left: 2% !important; }
+
+  .portfolio {
+    font-size: 0.8em; }
+
+  .contacto .container span {
+    font-size: 0.9em; }
+  .contacto .container .social .badges {
+    margin-right: 5%; }
+  .contacto .container .social .links {
+    margin-left: 5%; }
+  .contacto .container form input {
+    width: 93%; } }
+@media screen and (max-width: 1024px) {
+  header .soy ul {
+    line-height: 2.4;
+    font-size: 1.6em; }
+  header .fsd .big-h1 {
+    margin-left: 4px !important;
+    padding: 0; }
+
+  .down-btn {
+    top: 545px; }
+
+  .what-is-fsd {
+    padding: 100px 0; }
+    .what-is-fsd .title-wifsd {
+      margin: 0 20% !important; }
+    .what-is-fsd .content-wifsd {
+      width: 100% !important; }
+
+  .whoiam .container-card {
+    top: -220px; }
+    .whoiam .container-card .cv {
+      width: 95%;
+      margin-left: 3%; }
+  .whoiam .icon img {
+    width: 80%; }
+  .whoiam .foto {
+    width: 41% !important; }
+  .whoiam .escudo {
+    margin-left: 1% !important; }
+
+  .portfolio {
+    font-size: 0.6em; }
+    .portfolio .box .container .logo-behance {
+      width: 70%;
+      margin-top: 15px; }
+
+  .contacto {
+    padding: 50px 0; }
+    .contacto .container .datos {
+      width: 100%;
+      text-align: center; }
+      .contacto .container .datos span {
+        font-size: 0.9em; }
+      .contacto .container .datos .social {
+        text-align: left;
+        margin-left: 30%; }
+        .contacto .container .datos .social .badges {
+          margin-right: 5%; }
+        .contacto .container .datos .social .links {
+          margin-left: 0; }
+    .contacto .container form {
+      width: 100% !important;
+      margin-top: 20px; }
+      .contacto .container form input {
+        width: 95%; } }
+@media screen and (max-width: 992px) {
+  .what-is-fsd .content-wifsd {
+    font-size: 1.8em; }
+
+  .whoiam .container-card .foto {
+    top: -365px; }
+    .whoiam .container-card .foto img {
+      width: 88%; }
+  .whoiam .container-card .escudo {
+    top: -365px; }
+    .whoiam .container-card .escudo img {
+      width: 70%; }
+
+  .contacto {
+    font-size: 1.5em; }
+    .contacto .container {
+      width: 80% !important; }
+      .contacto .container h4 {
+        font-size: 2em; }
+      .contacto .container .social {
+        margin-left: 25% !important; }
+        .contacto .container .social .badges {
+          margin-right: 10% !important; }
+          .contacto .container .social .badges .btn-floating {
+            width: 47px;
+            height: 47px; }
+            .contacto .container .social .badges .btn-floating i {
+              font-size: 1.9rem;
+              line-height: 47px; }
+        .contacto .container .social .links {
+          margin-left: 0; }
+          .contacto .container .social .links li {
+            margin-bottom: 40px; }
+    .contacto form h6 {
+      font-size: 1.2em; }
+    .contacto form input {
+      width: 96% !important;
+      font-size: 1.2em;
+      height: 60px !important; }
+    .contacto form textarea {
+      font-size: 1.2em; }
+    .contacto form .send {
+      margin-left: 43.66667% !important; }
+      .contacto form .send .btn-large {
+        width: 75.5px;
+        height: 75.5px; }
+        .contacto form .send .btn-large i {
+          font-size: 2.6rem;
+          line-height: 75.5px; } }
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 200px; }
+    header .iso-container {
+      margin-left: 5% !important; }
+      header .iso-container .iso {
+        width: 230px; }
+    header .soy .no-padd .title-soy {
+      font-size: 4em; }
+    header .soy ul {
+      line-height: 2.5;
+      font-size: 1.4em; }
+    header .fsd .big-h1 {
+      margin: 0 0 0 5% !important;
+      padding: 0;
+      font-size: 11em; }
+    header .fsd .medium-h1 {
+      font-size: 5em;
+      margin: 0; }
+
+  .down-btn {
+    top: 615px;
+    margin-left: 48%; }
+
+  .what-is-fsd {
+    padding: 100px 0; }
+    .what-is-fsd .title-wifsd {
+      margin: 0 20% !important; }
+    .what-is-fsd .content-wifsd {
+      width: 100% !important; }
+
+  .whoiam {
+    height: 700px; }
+    .whoiam .base {
+      top: 340px;
+      height: 330px; }
+    .whoiam .container-card {
+      position: relative;
+      top: -270px; }
+      .whoiam .container-card .cv {
+        width: 95%;
+        margin-left: 3%;
+        font-size: 1.5em;
+        height: 330px;
+        padding: 120px 50px 100px 50px; }
+      .whoiam .container-card .foto {
+        top: -275px; }
+      .whoiam .container-card .escudo {
+        top: -275px; }
+
+  .portfolio {
+    font-size: 0.45em; }
+    .portfolio .box .container .logo-behance {
+      width: 62%;
+      margin-top: 15px; }
+
+  .contacto .container .social {
+    margin-left: 25% !important; }
+    .contacto .container .social .badges {
+      margin-right: 10% !important; }
+    .contacto .container .social .links {
+      margin-left: 0; }
+  .contacto form input {
+    width: 93.5% !important; } }
+@media screen and (max-width: 480px) {
+  header {
+    padding-bottom: 140px !important; }
+    header .iso-container {
+      width: 45.66667%;
+      padding: 0; }
+      header .iso-container .iso {
+        width: 230px; }
+    header .soy {
+      width: 53% !important;
+      padding-right: 0 !important; }
+      header .soy .no-padd .title-soy {
+        font-size: 4em; }
+      header .soy ul {
+        font-size: 1.3em;
+        padding-right: 0 !important; }
+    header .fsd .big-h1 {
+      font-size: 11em;
+      margin: 0 !important;
+      width: 45.66667% !important; }
+    header .fsd .medium-h1 {
+      font-size: 4.1em;
+      line-height: 1.15;
+      margin-left: 15px !important; }
+
+  .down-btn {
+    top: 550px; }
+
+  .what-is-fsd {
+    padding: 100px 0; }
+    .what-is-fsd .title-wifsd {
+      margin: 0 15% !important; }
+      .what-is-fsd .title-wifsd h1 {
+        font-size: 3.5rem; }
+      .what-is-fsd .title-wifsd .big-h1 {
+        font-size: 10em; }
+      .what-is-fsd .title-wifsd .medium-h1 {
+        font-size: 3.2rem; }
+      .what-is-fsd .title-wifsd .big {
+        font-size: 300px;
+        top: -270px;
+        left: 230px; }
+    .what-is-fsd .content-wifsd {
+      margin: 0 !important;
+      font-size: 1.2em; }
+
+  .whoiam .container-card .cv {
+    font-size: 1.5em;
+    padding: 120px 30px 100px 30px; }
+    .whoiam .container-card .cv .lugares li:first-child {
+      padding-bottom: 25px; }
+  .whoiam .container-card .foto {
+    top: -235px; }
+    .whoiam .container-card .foto img {
+      width: 100% !important; }
+  .whoiam .container-card .escudo {
+    top: -235px; }
+    .whoiam .container-card .escudo img {
+      width: 80% !important; }
+
+  .portfolio {
+    font-size: 0.35em; }
+    .portfolio .box {
+      margin: 0 40px; }
+      .portfolio .box .container .up {
+        margin: 0px 0 50px 0 !important; }
+        .portfolio .box .container .up .portfolio-title h1 {
+          font-size: 9em; }
+      .portfolio .box .container .logo-behance {
+        width: 75%;
+        margin-top: 20px;
+        margin-left: 20px; }
+      .portfolio .box .container .aparte {
+        line-height: 2; }
+
+  .contacto .container .social {
+    margin-left: 15% !important; }
+  .contacto form input {
+    width: 92% !important; }
+  .contacto form .send {
+    margin-left: 40.66667% !important; } }
+
+/*# sourceMappingURL=styles.css.map */

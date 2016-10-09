@@ -1,0 +1,932 @@
+@import "variables";
+
+body{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  background-color: $primary;
+}
+
+header{
+  background-color: $third;
+  padding-top: 80px;
+  padding-bottom: 3%;
+
+  .iso{
+    width: 270px;
+    padding-top: 15px;
+  }
+
+  .soy{
+    .no-padd{
+      padding: 0 !important;
+
+      .title-soy{
+        text-align: center;
+        font-size: 4.5em;
+        margin: 0 !important;
+      }
+    }
+
+    ul{
+      line-height: 1.9;
+      font-size: 2em;
+      font-weight: 300;
+      margin-left: 20px !important;
+    }
+  }
+}
+
+.big-h1{
+  font-size: 13em;
+  color: $secondary;
+  font-weight: 300;
+  line-height: 0.6;
+}
+
+.medium-h1{
+  color: $secondary;
+  font-weight: 600;
+  font-size: 4em;
+  line-height: 0.9;
+}
+
+.fsd{
+  .big-h1{
+    text-align: right;
+    line-height: 0.8;
+    margin-left: 13px !important;
+  }
+
+  .medium-h1{
+    color: $primary;
+    font-weight: 600;
+    font-size: 6em;
+    line-height: 0.9;
+    padding-left: 0 !important;
+  }
+}
+
+.down-btn{
+  padding: 0 !important;
+  position: absolute;
+  margin-left: 50%;
+  top: 565px;
+
+  a{
+    &:hover{
+      background-color: white !important;
+    }
+  }
+
+  .btn-floating.btn-large i{
+    line-height: 60.5px !important;
+    color: $primary !important;
+
+    &:hover{
+      color: $primary !important;
+    }
+  }
+
+  .material-icons{
+    font-size: 30px !important;
+  }
+}
+
+.what-is-fsd{
+  background-color: $primary;
+  position: relative;
+  padding: 150px 0;
+
+  .title-wifsd{
+    height: 400px;
+
+    .big-h1{
+      margin-left: -10px !important;
+    }
+
+    .medium-h1{
+      margin: 0 !important;
+    }
+
+    .big{
+      font-size: 350px;
+      font-weight: 600;
+      position: relative;
+      top: -320px;
+      left: 280px;
+    }
+  }
+
+  .content-wifsd{
+    font-size: 1.3em;
+    padding-left: 50px;
+    line-height: 1.2;
+    margin-top: 5%;
+
+    ul{
+      li{
+        color: $secondary;
+        font-weight: 300;
+        list-style-type: disc;
+      }
+    }
+  }
+}
+
+.whoiam{
+  background: #013240;
+  background-image: url("../img/headercyan.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  position: relative;
+  top: -8px;
+  height: 900px;
+
+  .base{
+    height: 400px;
+    position: relative;
+    top: 500px;
+  }
+
+  .container-card{
+    top: -220px;
+    position: relative;
+
+    .cv{
+      background-color: $third;
+      position: relative;
+      font-size: 1.8em;
+      padding: 150px 50px 100px 50px;
+      width: 70%;
+      margin-left: 15%;
+      top: 230px;
+
+      .estudios{
+        text-align: right;
+        font-weight: 300;
+      }
+
+      .lugares{
+        color: $primary;
+      }
+    }
+  }
+
+  .icon{
+    position: relative;
+    text-align: right;
+    top: -380px;
+    right: -3%;
+
+    img{
+      width: 50%;
+      max-width: 100%;
+    }
+  }
+
+  .foto{
+    position: relative;
+    top: -380px;
+    width: 31.33333% !important;
+    left: -3%;
+
+    img{
+      border: 11px solid $secondary;
+      max-width: 100%;
+      width: 83%;
+    }
+  }
+}
+
+.portfolio{
+  background-color: $third;
+  position: relative;
+  top: -40px;
+  padding: 100px 0;
+
+  .box{
+    padding: 25px;
+    border: 15px solid $third;
+    transition: ($transition_duration*$pipes)+$transition_duration ease;
+    margin: 0 100px;
+
+    &:hover{
+      border: 15px solid white;
+      transition: ($transition_duration*$pipes)+$transition_duration ease;
+    }
+
+    .container{
+      .row{
+        margin: 0;
+
+        .up{
+          margin: -50px 0 50px 0;
+        }
+      }
+      .portfolio-title{
+        h1{
+          font-weight: 300;
+          font-size: 8em;
+          line-height: 1.05;
+          margin: 0;
+
+          a{
+            color: $secondary;
+
+            .bold{
+              color: $primary;
+              font-weight: 600;
+              font-size: 1.7em;
+            }
+          }
+        }
+      }
+
+      .aparte{
+        color: $secondary;
+        font-weight: 300;
+        font-size: 8em;
+        padding: 0 !important;
+        line-height: 1.5;
+
+        a{
+          color: $secondary;
+        }
+      }
+
+      .logo-behance{
+        margin-top: 40px;
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+.contacto{
+  padding: 100px 0;
+  background-image: url("../img/isotipo n-bkg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .container{
+    width: 60% !important;
+
+    span{
+      color: $secondary;
+      font-weight: 300;
+    }
+
+    .social{
+      margin-top: 10%;
+      font-weight: 300;
+
+      .badges{
+        li{
+          margin-bottom: 15px;
+
+          &:hover{
+            background-color: $third !important;
+          }
+        }
+
+        .colorthird{
+          color: $third;
+          &:hover{
+            color: $secondary !important;
+          }
+        }
+      }
+
+      .links{
+        margin-top: 10px;
+        padding-left: 0 !important;
+        margin-left: 8%;
+
+        a{
+          color: white;
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+
+        li{
+          margin-bottom: 37px;
+        }
+      }
+    }
+
+    form{
+      input,textarea{
+        background-color: $third;
+        border: 0 !important;
+        padding: 0 15px;
+        font-weight: 300;
+
+        &:focus{
+          border: 0 !important;
+          box-shadow: none !important;
+        }
+      }
+
+      textarea{
+        height: 200px;
+        padding-top: 10px;
+      }
+
+      input{
+        height: 30px;
+        width: 95%;
+      }
+
+      .send{
+        margin-top: 4%;
+
+        .cyan.accent-3:hover{
+          background-color: white !important;
+        }
+
+        .colorthird{
+          color: $third;
+          &:hover{
+            color: $primary !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  padding: 30px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #E4E4E4;
+}
+
+.mail-ok-bkg{
+  background-image: url("../img/isotipo n-bkg.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -50px;
+  background-size: 80%;
+
+  .mail-ok-container{
+    margin-top: 10%;
+
+    .mail-successful{
+      background-color: $third;
+      width: 70%;
+      padding: 5% !important;
+    }
+  }
+}
+
+
+/*-------------------------------INICIO DE MEDIA QUERIES--------------------------------------*/
+
+@media screen and (max-width: 1280px), (max-width: 1366px){
+  .whoiam{
+    .base{
+      top: 470px;
+    }
+
+    .container-card{
+      top: -220px;
+
+      .cv{
+        width: 75%;
+      }
+    }
+
+    .icon{
+      img{
+        width: 60%;
+      }
+    }
+
+    .foto{
+      img{
+        width: 100%;
+      }
+    }
+
+   .escudo{
+     margin-left: 2% !important;
+   }
+  }
+
+  .portfolio{
+    font-size: 0.8em;
+  }
+
+  .contacto{
+    .container{
+      span{
+        font-size: 0.9em;
+      }
+
+      .social{
+        .badges{
+          margin-right: 5%;
+        }
+
+        .links{
+          margin-left: 5%;
+        }
+      }
+
+      form{
+        input{
+          width: 93%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  header{
+    .soy{
+      ul{
+        line-height: 2.4;
+        font-size: 1.6em;
+      }
+    }
+
+    .fsd{
+      .big-h1{
+        margin-left: 4px !important;
+        padding: 0;
+      }
+    }
+  }
+
+  .down-btn{
+    top: 545px;
+  }
+
+  .what-is-fsd{
+    padding: 100px 0;
+
+    .title-wifsd{
+      margin: 0 20% !important;
+    }
+
+    .content-wifsd{
+      width: 100% !important;
+    }
+  }
+
+  .whoiam{
+    .container-card{
+      top: -220px;
+
+      .cv{
+        width: 95%;
+        margin-left: 3%;
+      }
+    }
+
+    .icon{
+      img{
+        width: 80%;
+      }
+    }
+
+    .foto{
+      width: 41% !important;
+    }
+
+   .escudo{
+     margin-left: 1% !important;
+   }
+  }
+
+  .portfolio{
+    font-size: 0.6em;
+
+    .box{
+      .container{
+        .logo-behance{
+          width: 70%;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  .contacto{
+    padding: 50px 0;
+
+    .container{
+      .datos{
+        width: 100%;
+        text-align: center;
+
+        span{
+          font-size: 0.9em;
+        }
+
+        .social{
+          text-align: left;
+          margin-left: 30%;
+
+          .badges{
+            margin-right: 5%;
+          }
+
+          .links{
+            margin-left: 0;
+          }
+        }
+      }
+
+      form{
+        width: 100% !important;
+        margin-top: 20px;
+
+        input{
+          width: 95%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px){
+  .what-is-fsd{
+      .content-wifsd{
+        font-size: 1.8em;
+      }
+  }
+  .whoiam{
+    .container-card{
+      .foto{
+        top: -365px;
+
+        img{
+          width: 88%;
+        }
+      }
+
+     .escudo{
+       top: -365px;
+
+       img{
+         width: 70%;
+       }
+     }
+    }
+  }
+
+  .contacto{
+    font-size: 1.5em;
+
+    .container{
+      width: 80% !important;
+
+        h4{
+          font-size: 2em;
+        }
+        .social{
+          margin-left: 25% !important;
+
+          .badges{
+            margin-right: 10% !important;
+
+            .btn-floating{
+              width: 47px;
+              height: 47px;
+
+              i{
+                font-size: 1.9rem;
+                line-height: 47px;
+              }
+            }
+          }
+
+          .links{
+            margin-left: 0;
+
+            li{
+              margin-bottom: 40px;
+            }
+          }
+        }
+      }
+
+    form{
+      h6{
+        font-size: 1.2em;
+      }
+
+      input{
+        width: 96% !important;
+        font-size: 1.2em;
+        height: 60px !important;
+      }
+
+      textarea{
+        font-size: 1.2em;
+      }
+
+      .send{
+        margin-left: 43.66667% !important;
+
+        .btn-large{
+          width: 75.5px;
+          height: 75.5px;
+
+          i{
+            font-size: 2.6rem;
+            line-height: 75.5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  header{
+    padding-bottom: 200px;
+
+    .iso-container{
+      margin-left: 5% !important;
+
+      .iso{
+        width: 230px;
+      }
+    }
+
+    .soy{
+      .no-padd{
+        .title-soy{
+          font-size: 4em;
+        }
+      }
+
+      ul{
+        line-height: 2.5;
+        font-size: 1.4em;
+      }
+    }
+
+    .fsd{
+      .big-h1{
+        margin: 0 0 0 5% !important;
+        padding: 0;
+        font-size: 11em;
+      }
+
+      .medium-h1{
+        font-size: 5em;
+        margin: 0;
+      }
+    }
+  }
+
+  .down-btn{
+    top: 615px;
+    margin-left: 48%;
+  }
+
+  .what-is-fsd{
+    padding: 100px 0;
+
+    .title-wifsd{
+      margin: 0 20% !important;
+    }
+
+    .content-wifsd{
+      width: 100% !important;
+    }
+  }
+
+  .whoiam{
+    height: 700px;
+
+    .base{
+      top: 340px;
+      height: 330px;
+    }
+
+    .container-card{
+      position: relative;
+      top: -270px;
+
+      .cv{
+        width: 95%;
+        margin-left: 3%;
+        font-size: 1.5em;
+        height: 330px;
+        padding: 120px 50px 100px 50px;
+      }
+
+      .foto{
+        top: -275px;
+      }
+
+     .escudo{
+       top: -275px;
+     }
+    }
+  }
+
+  .portfolio{
+    font-size: 0.45em;
+
+    .box{
+      .container{
+        .logo-behance{
+          width: 62%;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  .contacto{
+    .container{
+        .social{
+          margin-left: 25% !important;
+
+          .badges{
+            margin-right: 10% !important;
+          }
+
+          .links{
+            margin-left: 0;
+          }
+        }
+      }
+
+    form{
+      input{
+        width: 93.5% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  header{
+    padding-bottom: 140px !important;
+
+    .iso-container{
+      width: 45.66667%;
+      padding: 0;
+
+      .iso{
+        width: 230px;
+      }
+    }
+
+    .soy{
+      width: 53% !important;
+      padding-right: 0 !important;
+
+      .no-padd{
+        .title-soy{
+          font-size: 4em;
+        }
+      }
+
+      ul{
+        font-size: 1.3em;
+        padding-right: 0 !important;
+      }
+    }
+
+    .fsd{
+      .big-h1{
+        font-size: 11em;
+        margin: 0 !important;
+        width: 45.66667% !important;
+      }
+
+      .medium-h1{
+        font-size: 4.1em;
+        line-height: 1.15;
+        margin-left: 15px !important;
+      }
+    }
+  }
+
+  .down-btn{
+    top: 550px;
+  }
+
+  .what-is-fsd{
+    padding: 100px 0;
+
+    .title-wifsd{
+      margin: 0 15% !important;
+
+      h1{
+        font-size: 3.5rem;
+      }
+
+      .big-h1{
+        font-size: 10em;
+      }
+
+      .medium-h1{
+        font-size: 3.2rem;
+      }
+
+      .big{
+        font-size: 300px;
+        top: -270px;
+        left: 230px;
+      }
+    }
+
+    .content-wifsd{
+      margin: 0 !important;
+      font-size: 1.2em;
+    }
+  }
+
+  .whoiam{
+    .container-card{
+      .cv{
+        font-size: 1.5em;
+        padding: 120px 30px 100px 30px;
+
+        .lugares{
+          li:first-child{
+            padding-bottom: 25px
+          }
+        }
+      }
+
+      .foto{
+        top: -235px;
+
+        img{
+          width: 100% !important;
+        }
+      }
+
+     .escudo{
+       top: -235px;
+
+       img{
+         width: 80% !important;
+       }
+     }
+    }
+  }
+
+  .portfolio{
+    font-size: 0.35em;
+
+    .box{
+      margin: 0 40px;
+
+      .container{
+        .up{
+          margin: 0px 0 50px 0 !important;
+
+          .portfolio-title{
+            h1{
+              font-size: 9em;
+            }
+          }
+        }
+
+        .logo-behance{
+          width: 75%;
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+
+        .aparte{
+          line-height: 2;
+        }
+      }
+    }
+  }
+
+  .contacto{
+    .container{
+        .social{
+          margin-left: 15% !important;
+        }
+      }
+
+    form{
+      input{
+        width: 92% !important;
+      }
+
+      .send{
+        margin-left: 40.66667% !important;
+      }
+    }
+  }
+}
