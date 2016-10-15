@@ -1,0 +1,17 @@
+@import 'colors.scss';
+@import 'fonts.scss';
+@import 'header.scss';
+
+body{
+    background-color: $tertiary;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.no-margin{
+    margin: 0 !important;
+}

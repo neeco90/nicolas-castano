@@ -6,12 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="assets/css/reset.css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.parallaxify.js" type="text/javascript"></script>
+        <script src="scripts/scripts.js" type="text/javascript"></script>
     </head>
     <body>
-    
+        <div id="bkg-header-container">
+            <div id="bkg-header-forms" data-parallaxify-background-range="70"></div>
+            <div id="bkg-header-logo" data-parallaxify-background-range="30"></div>
+        </div>
+        <header class="main-header">
+            <nav class="main-header_nav row">
+                <div class="col s6">
+                    <img class="main-header_nav_isologo-nav" src="assets/img/isologo-header.svg" alt="Nicolás Castano">
+                </div>
+                <div class="col s6 right-align">
+                    <a href=""><img class="main-header_nav_menu" src="assets/img/menu-icon.svg"></a>
+                </div>
+            </nav>
+            <div class="row center-align main-header_title">
+                <div>
+                    <h3>Hi i'm nicolás castano</h3>
+                    <h1 class="bold no-margin">designer + Front-End dev</h1>
+                </div>
+            </div>
+        </header>
+        <section class="presentation container">
+
+        </section>
     </body>
 </html>

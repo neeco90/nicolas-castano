@@ -1,3 +1,76 @@
+p {
+  font-size: 26px; }
 
+h1, h2, h3 {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 29px; }
+
+span {
+  font-size: 21px; }
+
+.main-header {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+  .main-header_nav {
+    background: transparent;
+    box-shadow: none;
+    padding: 20px; }
+    .main-header_nav_isologo-nav {
+      width: 50px; }
+  .main-header_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 150px); }
+
+#bkg-header-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  #bkg-header-container #bkg-header-forms {
+    background-image: url("../img/background-parallax.png");
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  #bkg-header-container #bkg-header-logo {
+    background-image: url("../img/isologo-header.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 20%;
+    left: 27%; }
+
+body {
+  background-color: #121223;
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+.bold {
+  font-weight: bold; }
+
+.no-margin {
+  margin: 0 !important; }
 
 /*# sourceMappingURL=styles.css.map */
