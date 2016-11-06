@@ -1,0 +1,7 @@
+.presentation{
+    background: $primary-two;
+    background: -moz-linear-gradient(top,  $primary-two 0%, $secondary-two 100%);
+    background: -webkit-linear-gradient(top,  $primary-two 0%,$secondary-two 100%);
+    background: linear-gradient(to bottom,  $primary-two 0%,$secondary-two 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffa8', endColorstr='#00c1a7',GradientType=0 );
+}

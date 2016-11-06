@@ -1,11 +1,19 @@
-@import 'colors.scss';
-@import 'fonts.scss';
-@import 'header.scss';
+@import 'colors';
+@import 'fonts';
+@import 'layout';
+@import 'header';
+@import 'presentation-section';
 
 body{
     background-color: $tertiary;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 .bold{
