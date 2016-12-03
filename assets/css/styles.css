@@ -17,7 +17,11 @@ span {
   font-size: 21px; }
 
 .container-section {
-  padding: 50px 0; }
+  padding: 10rem 0 4rem 0; }
+
+.miscellany {
+  width: 100px;
+  height: 10px; }
 
 .header {
   min-height: 680px; }
@@ -36,7 +40,8 @@ span {
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: calc(100% - 150px); }
+      height: calc(100% - 150px);
+      padding: 2rem; }
   .header #bkg-header-container {
     position: absolute;
     top: 0;
@@ -47,6 +52,7 @@ span {
     overflow: hidden; }
     .header #bkg-header-container #bkg-header-forms {
       background-image: url("../img/background-parallax.png");
+      background-size: contain;
       opacity: .5;
       position: absolute;
       top: 0;
@@ -70,12 +76,44 @@ span {
       left: 27%; }
 
 .presentation {
-  background: #00ffa8;
-  background: -moz-linear-gradient(top, #00ffa8 0%, #00c1a7 100%);
-  background: -webkit-linear-gradient(top, #00ffa8 0%, #00c1a7 100%);
-  background: linear-gradient(to bottom, #00ffa8 0%, #00c1a7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffa8', endColorstr='#00c1a7',GradientType=0 ); }
+  background-color: #00ffa8;
+  background-image: url(../img/profile-photo.jpg); }
+  .presentation_card {
+    height: 763px;
+    position: relative;
+    background: #00ffa8;
+    background: -moz-linear-gradient(top, #00ffa8 0%, #00c1a7 100%);
+    background: -webkit-linear-gradient(top, #00ffa8 0%, #00c1a7 100%);
+    background: linear-gradient(to bottom, #00ffa8 0%, #00c1a7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffa8', endColorstr='#00c1a7',GradientType=0 ); }
+    .presentation_card-helper {
+      background-image: url(../img/presentation-polygon.png);
+      background-repeat: no-repeat;
+      width: 122px;
+      height: 768px;
+      position: absolute;
+      top: -1px;
+      left: -122px; }
 
+@media screen and (min-width: 451px) and (max-width: 768px) {
+  .header .main-header_title {
+    height: 50%; } }
+@media screen and (max-width: 768px) {
+  .header #bkg-header-container {
+    height: auto; }
+    .header #bkg-header-container #bkg-header-logo {
+      top: 0;
+      left: 0;
+      background-position: center !important;
+      background-size: 60%; }
+
+  .presentation-card_helper {
+    display: none; } }
+@media screen and (max-width: 450px) {
+  .header {
+    min-height: 100%; }
+    .header #bkg-header-container #bkg-header-logo {
+      background-size: 80%; } }
 body {
   background-color: #121223;
   font-family: 'Montserrat', sans-serif;

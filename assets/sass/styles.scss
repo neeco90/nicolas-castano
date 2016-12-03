@@ -3,23 +3,24 @@
 @import 'layout';
 @import 'header';
 @import 'presentation-section';
+@import 'responsive';
 
 body{
-    background-color: $tertiary;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+  background-color: $tertiary;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .bold{
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .no-margin{
-    margin: 0 !important;
+  margin: 0 !important;
 }

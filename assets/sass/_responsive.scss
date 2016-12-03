@@ -1,0 +1,46 @@
+// FOR TABLETS
+@media screen and (min-width: 451px) and (max-width: 768px){
+  //HEADER SECTION
+  .header{
+    .main-header{
+      &_title{
+        height: 50%;
+      }
+    }
+  }
+}
+
+// FOR SMARTPHONES AND TABLETS
+@media screen and (max-width: 768px){
+  //HEADER SECTION
+  .header{
+    #bkg-header-container{
+      height: auto;
+
+      #bkg-header-logo{
+        top: 0;
+        left: 0;
+        background-position: center !important;
+        background-size: 60%;
+      }
+    }
+  }
+
+  .presentation-card_helper{
+    display: none;
+  }
+}
+
+// FOR SMARTPHONES
+@media screen and (max-width: 450px){
+  //HEADER SECTION
+  .header{
+    min-height: 100%;
+
+    #bkg-header-container{
+      #bkg-header-logo{
+        background-size: 80%;
+      }
+    }
+  }
+}
