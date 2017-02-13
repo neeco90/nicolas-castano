@@ -10,6 +10,7 @@
 
 .header{
   min-height: 680px;
+  position: relative;
 
   .main-header{
     position: absolute;
@@ -19,7 +20,7 @@
     &_nav{
       background: transparent;
       box-shadow: none;
-      padding: 20px;
+      padding: 2rem 3rem;
 
       &_isologo-nav{
         width: 50px;

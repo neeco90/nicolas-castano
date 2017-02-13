@@ -26,13 +26,25 @@
     }
   }
 
-  .presentation-card_helper{
-    display: none;
+  .presentation{
+    background-image: none;
+
+    &-card_helper{
+      display: none;
+    }
   }
 }
 
 // FOR SMARTPHONES
 @media screen and (max-width: 450px){
+  body{
+    height: 100%;
+  }
+
+  h1{
+    font-size: 55px;
+  }
+  
   //HEADER SECTION
   .header{
     min-height: 100%;
@@ -42,5 +54,14 @@
         background-size: 80%;
       }
     }
+  }
+
+  .container-section{
+    padding: 5rem 4rem 2rem 4rem;
+  }
+
+  //PRESENTATION SECTION
+  .presentation_card{
+    height: auto;
   }
 }

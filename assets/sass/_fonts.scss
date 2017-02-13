@@ -1,8 +1,9 @@
-p{
-  font-size: 26px;
+p, li{
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
   text-transform: uppercase;
 }
 
@@ -16,8 +17,21 @@ h2{
 
 h3{
   font-size: 29px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 20px;
 }
 
 span{
-  font-size: 21px;
+  font-size: 12px;
+}
+
+a{
+  color: white;
+}
+
+.bold{
+  font-weight: bold;
 }
