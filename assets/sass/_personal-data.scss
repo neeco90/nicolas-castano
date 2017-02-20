@@ -1,0 +1,37 @@
+.personal-data{
+  background-color: $primary-one;
+  width: 100%;
+
+  .miscellany{
+    background-color: $secondary-one;
+  }
+
+  h3, h4{
+    color: $primary-two;
+  }
+
+  .dev-lang{
+    background-image: url(../../img/code.png);
+    background-repeat: no-repeat;
+    background-position: 20% 0;
+
+    .circle-chart{
+      width: 60%;
+
+      .progressbar-text{
+        @extend h2;
+        color: white !important;
+      }
+
+      &_text{
+        @extend .circle-chart;
+        margin-top: 1rem;
+      }
+    }
+
+    &_container{
+      padding: 2rem 0;
+      float: left;
+    }
+  }
+}

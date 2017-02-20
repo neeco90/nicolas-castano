@@ -22,3 +22,16 @@ body{
   width: 200px;
   height: 10px;
 }
+
+.distribute-layout{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 50px;
+
+  .distribute-item{
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+  }
+}

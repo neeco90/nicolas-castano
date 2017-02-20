@@ -12,10 +12,11 @@
     <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="node_modules/materialize-css/dist/js/materialize.min.js" type="text/javascript"></script>
     <script src="scripts/jquery.parallaxify.js" type="text/javascript"></script>
+    <script src="node_modules/progressbar.js/dist/progressbar.js"></script>
     <script src="scripts/scripts.js" type="text/javascript"></script>
   </head>
   <body>
-    <section class="row header">
+    <section id="header" class="row header">
       <div class="col s12">
         <div id="bkg-header-container">
           <div id="bkg-header-forms" data-parallaxify-background-range="70"></div>
@@ -40,7 +41,7 @@
           </header>
       </div>
     </section>
-    <section class="row no-margin">
+    <section id="presentation" class="row no-margin">
       <div class="col s12 presentation">
         <div class="col m12 l7 offset-l5 presentation_card">
           <div class="container-section">
@@ -73,6 +74,75 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section id="works" class="row no-margin">
+      <div class="container-section">
+        <div class="works">
+          <div class="miscellany"></div>
+          <div class="works_content col s12">
+            <h3>Projects worked</h3>
+            <div class="works_content_container-item">
+              <div class="row distribute-layout">
+                <div class="distribute-item"><img src="assets/img/macro.png" alt="Banco Macro"></div>
+                <div class="distribute-item"><img src="assets/img/eges.png" alt="Sistema de gestión en salud EGeS"></div>
+                <div class="distribute-item"><img src="assets/img/amplabs.png" alt="Amplification Labs"></div>
+                <div class="distribute-item"><img src="assets/img/quantum.png" alt="Quantum Factory"></div>
+              </div>
+              <div class="row distribute-layout">
+                <div class="distribute-item"><img src="assets/img/flechabus.png" alt="Flecha Bus"></div>
+                <div class="distribute-item"><img src="assets/img/geodeco.png" alt="Geo Deco"></div>
+                <div class="distribute-item"><img src="assets/img/largadistancia.png" alt="Larga Distancia Rock"></div>
+                <div class="distribute-item"><img src="assets/img/tuservicio.png" alt="Tu Servicio"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="personalData" class="row no-margin">
+      <div class="personal-data">
+        <div class="container-section">
+          <div class="row">
+            <div class="col m6 s12 skills">
+              <div class="miscellany"></div>
+              <h3>Mi skills</h3>
+            </div>
+            <div class="col m6 s12 dev-lang">
+              <div class="miscellany"></div>
+              <h3>Development languages</h3>
+              <div class="dev-lang_container">
+                <div class="col s4">
+                  <div id="html" class="circle-chart"></div>
+                  <div class="circle-chart_text center-align">
+                    <p>HTML5</p>
+                  </div>
+                </div>
+                <div class="col s4">
+                  <div id="css" class="circle-chart"></div>
+                  <div class="circle-chart_text center-align">
+                    <p>CSS<br>SASS/LESS</p>
+                  </div>
+                </div>
+                <div class="col s4">
+                  <div id="js" class="circle-chart"></div>
+                  <div class="circle-chart_text center-align">
+                    <p>JS<br>JQuery/Typescript</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row no-margin">
+            <div class="col m6 s12 personal">
+              <div class="miscellany"></div>
+              <h3>Personal data</h3>
+            </div>
+            <div class="col m6 s12 frwks">
+              <h4>Frameworks</h4>
+            </div>
+          </div>
+        </div>      
       </div>
     </section>
   </body>
