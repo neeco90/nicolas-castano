@@ -1,6 +1,6 @@
 .presentation{
   background-color: $primary-two;
-  background-image: url(../img/profile-photo.jpg); //PENDIENTE: Hacer efecto cuando scrolleas que se vaya moviendo la imagen de derecha a izquierda
+  background-image: url(../../img/profile-photo.jpg); //PENDIENTE: Hacer efecto cuando scrolleas que se vaya moviendo la imagen de derecha a izquierda
 
   &_card{
     height: 763px;
@@ -12,7 +12,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffa8', endColorstr='#00c1a7',GradientType=0 );
 
     &-helper{
-      background-image: url(../img/presentation-polygon.png);
+      background-image: url(../../img/presentation-polygon.png);
       background-repeat: no-repeat;
       width: 122px;
       height: 768px;

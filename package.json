@@ -1,0 +1,28 @@
+{
+  "name": "nicolas-castano",
+  "version": "2.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "dependencies": {
+    "gulp-install": "^0.6.0",
+    "jquery": "^3.1.1",
+    "materialize-css": "^0.98.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeco90/nicolas-castano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neeco90/nicolas-castano/issues"
+  },
+  "homepage": "https://github.com/neeco90/nicolas-castano#readme"
+}

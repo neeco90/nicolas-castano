@@ -77,7 +77,7 @@ body {
     min-height: 700px;
     overflow: hidden; }
     .header #bkg-header-container #bkg-header-forms {
-      background-image: url("../img/background-parallax.png");
+      background-image: url("../../img/background-parallax.png");
       background-size: contain;
       opacity: .5;
       position: absolute;
@@ -88,7 +88,7 @@ body {
       min-height: 700px;
       overflow: hidden; }
     .header #bkg-header-container #bkg-header-logo {
-      background-image: url("../img/isologo-header.svg");
+      background-image: url("../../img/isologo-header.svg");
       background-repeat: no-repeat;
       background-position: center;
       position: absolute;
@@ -103,7 +103,7 @@ body {
 
 .presentation {
   background-color: #00ffa8;
-  background-image: url(../img/profile-photo.jpg); }
+  background-image: url(../../img/profile-photo.jpg); }
   .presentation_card {
     height: 763px;
     position: relative;
@@ -113,7 +113,7 @@ body {
     background: linear-gradient(to bottom, #00ffa8 0%, #00c1a7 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffa8', endColorstr='#00c1a7',GradientType=0 ); }
     .presentation_card-helper {
-      background-image: url(../img/presentation-polygon.png);
+      background-image: url(../../img/presentation-polygon.png);
       background-repeat: no-repeat;
       width: 122px;
       height: 768px;
@@ -136,6 +136,7 @@ body {
 @media screen and (min-width: 451px) and (max-width: 768px) {
   .header .main-header_title {
     height: 50%; } }
+
 @media screen and (max-width: 768px) {
   .header #bkg-header-container {
     height: auto; }
@@ -144,27 +145,21 @@ body {
       left: 0;
       background-position: center !important;
       background-size: 60%; }
-
   .presentation {
     background-image: none; }
     .presentation-card_helper {
       display: none; } }
+
 @media screen and (max-width: 450px) {
   body {
     height: 100%; }
-
   h1 {
     font-size: 55px; }
-
   .header {
     min-height: 100%; }
     .header #bkg-header-container #bkg-header-logo {
       background-size: 80%; }
-
   .container-section {
     padding: 5rem 4rem 2rem 4rem; }
-
   .presentation_card {
     height: auto; } }
-
-/*# sourceMappingURL=styles.css.map */

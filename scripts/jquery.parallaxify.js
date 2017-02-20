@@ -297,7 +297,7 @@
 			this._findBackgrounds();
 			// Fix for WebKit background rendering bug
 			if (options && options.firstLoad && /WebKit/.test(navigator.userAgent)) {
-				$(window).load(function() {
+				$(window).on('load',function() {
 					var $el = $('body');
 						oldLeft = $el.scrollLeft();
 						oldTop = $el.scrollTop();

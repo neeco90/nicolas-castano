@@ -45,14 +45,14 @@
     @include bkg-parallax;
     
     #bkg-header-forms{
-      background-image: url('../img/background-parallax.png');
+      background-image: url('../../img/background-parallax.png');
       background-size: contain;
       opacity: .5;
       @include bkg-parallax;
     }
 
     #bkg-header-logo{
-      background-image: url('../img/isologo-header.svg');
+      background-image: url('../../img/isologo-header.svg');
       background-repeat: no-repeat;
       background-position: center;
       @include bkg-parallax;
