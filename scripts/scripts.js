@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    $('#bkg-header-container').parallaxify();
-
+function circleCharts(){
     //circle chart
     circleParams = {
         easing: 'easeInOut',
@@ -21,7 +19,20 @@ $(document).ready(function(){
     var css = new ProgressBar.Circle('#css',circleParams);
     var js = new ProgressBar.Circle('#js',circleParams);
 
-    html.animate(0.90);
+    html.animate(0.95);
     css.animate(0.95);
-    js.animate(0.70);
+    js.animate(0.78);
+}
+
+///////// INICIALIZACIÓN DE FUNCIONES /////////
+
+$(document).ready(function(){
+    $('#bkg-header-container').parallaxify();
+
+    $('#personalData').waypoint(function(direction) {
+        circleCharts();
+        this.destroy();
+    }, {
+        offset: '500'
+    });
 })
