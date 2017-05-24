@@ -33,16 +33,6 @@
       ul li{
         list-style-type: decimal;
       }
-
-      a{
-        color: $primary-one;
-        transition: all .5s;
-
-        &:hover{
-          color: white;
-          text-decoration: underline;
-        }
-      }
     }
   }
 }

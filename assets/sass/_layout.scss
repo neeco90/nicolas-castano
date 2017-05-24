@@ -31,7 +31,19 @@ body{
 
   .distribute-item{
     display: table-cell;
-    width: 25%;
+    vertical-align: middle;
     text-align: center;
   }
+}
+
+.left-separator{
+  margin-left: 10px;
+}
+
+.right-separator{
+  margin-right: 10px;
+}
+
+.content{
+  padding-top: 2rem;
 }

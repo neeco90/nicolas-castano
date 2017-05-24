@@ -30,7 +30,21 @@
                 alt="Nicolás Castano">
               </div>
               <div class="col s6 right-align">
-                <a href=""><img class="main-header_nav_menu" src="assets/img/menu-icon.svg"></a>
+                <a onclick="openMenu()"><img class="main-header_nav_menu" src="assets/img/menu-icon.svg"></a>
+              </div>
+              <div class="main-header_nav_menu-list valign-wrapper">
+                <ul>
+                  <li class="valign"><a href="#header">home</a></li>
+                  <li class="valign"><a href="#presentation">it's me nico!</a></li>
+                  <li class="valign"><a href="#works">some projects worked</a></li>
+                  <li class="valign"><a href="#personalData">know my skills</a></li>
+                  <li class="valign"><a href="#contact">do we chat?</a></li>
+                </ul>
+                <div class="menu-icon_close">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" fill="#121223" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                  <g><path d="M87.8,12.8c-1-1-2.6-1-3.5,0L50.5,46.5L15.8,11.7c-1-1-2.6-1-3.5,0c-1,1-1,2.6,0,3.5L47,50L12.2,84.8c-1,1-1,2.6,0,3.5   c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7l34.8-34.8l33.7,33.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5L54.1,50   l33.7-33.7C88.7,15.3,88.7,13.7,87.8,12.8z"/></g>
+                  </svg>
+                </div>
               </div>
             </nav>
             <div class="row center-align main-header_title">
@@ -71,7 +85,6 @@
                 <li>Front-End Development at Enfoke (2015-2016)</li>
               </ul>
               <br>
-              <a href="">See more</a>
             </div>
           </div>
         </div>
@@ -86,7 +99,7 @@
             <div class="works_content_container-item">
               <div class="row distribute-layout">
                 <div class="distribute-item"><img src="assets/img/macro.png" alt="Banco Macro"></div>
-                <div class="distribute-item"><img src="assets/img/eges.png" alt="Sistema de gestión en salud EGeS"></div>
+                <div class="distribute-item"><img src="assets/img/eges.png" alt="Management health system EGeS"></div>
                 <div class="distribute-item"><img src="assets/img/amplabs.png" alt="Amplification Labs"></div>
                 <div class="distribute-item"><img src="assets/img/quantum.png" alt="Quantum Factory"></div>
               </div>
@@ -108,11 +121,43 @@
             <div class="col m6 s12 skills">
               <div class="miscellany"></div>
               <h3>Mi skills</h3>
+              <div class="valign-wrapper row">
+                <div class="valign">
+                  <p>Adobe Illustrator</p>
+                </div>
+                <div class="valign">
+                  <div id="illustrator"></div>
+                </div>
+              </div>
+              <div class="valign-wrapper row">
+                <div class="valign">
+                  <p>Adobe Photoshop</p>
+                </div>
+                <div class="valign">
+                  <div id="photoshop"></div>
+                </div>
+              </div>
+              <div class="valign-wrapper row">
+                <div class="valign">
+                  <p>UI Design</p>
+                </div>
+                <div class="valign">
+                  <div id="uidesign"></div>
+                </div>
+              </div>
+              <div class="valign-wrapper row">
+                <div class="valign">
+                  <p>Branding</p>
+                </div>
+                <div class="valign">
+                  <div id="branding"></div>
+                </div>
+              </div>
             </div>
             <div class="col m6 s12 dev-lang">
               <div class="miscellany"></div>
               <h3>Development languages</h3>
-              <div class="dev-lang_container">
+              <div class="dev-lang_container content">
                 <div class="col s4">
                   <div id="html" class="circle-chart"></div>
                   <div class="circle-chart_text center-align">
@@ -128,7 +173,7 @@
                 <div class="col s4">
                   <div id="js" class="circle-chart"></div>
                   <div class="circle-chart_text center-align">
-                    <p>JS<br>JQuery/Typescript</p>
+                    <p>JS<br>JQuery</p>
                   </div>
                 </div>
               </div>
@@ -138,12 +183,73 @@
             <div class="col m6 s12 personal">
               <div class="miscellany"></div>
               <h3>Personal data</h3>
+              <div class="content row valign-wrapper">
+                <div class="valign right-separator">
+                  <img src="assets/img/location.svg" alt="Placement">
+                </div>
+                <div class="valign">
+                  <p>Buenos Aires, Argentina</p>
+                </div>
+              </div>
+              <div class="valign-wrapper">
+                <div class="valign right-separator">
+                  <img src="assets/img/languages.png" alt="Languages">
+                </div>
+                <div class="valign">
+                  <p>Spanish & english</p>
+                </div>
+              </div>
             </div>
             <div class="col m6 s12 frwks">
-              <h4>Frameworks</h4>
+              <div class="valign-wrapper">
+                <div class="valign">
+                  <h4>Frameworks</h4>
+                </div>
+                <div class="valign left-separator">
+                  <img src="assets/img/heart.svg">
+                </div>
+              </div>
+              <p>Materialize CSS</p>
+              <p>Material Design Lite</p>
+              <p>Bootstrap</p>
+              <p>Angular</p>
             </div>
           </div>
         </div>      
+      </div>
+    </section>
+    <section id="contact" class="row no-margin">
+      <div class="contact">
+        <div class="container-section">
+          <div class="center-align row">
+            <h3>Do you wanna talk with me?</h3>
+            <h1 class="bold no-margin capitalize">Let's chat!</h1>
+          </div>
+          <div class="contact-data">
+            <div class="distribute-layout">
+              <div class="distribute-item">
+                <img class="right-separator" src="assets/img/phone.svg" alt="Telephone">
+                <p>+54 11-3097-2100</p>
+              </div>
+              <div class="distribute-item">
+                <img class="right-separator" src="assets/img/mail.svg" alt="e-mail">
+                <p>neeco90@gmail.com</p>
+              </div>
+              <div class="distribute-item">
+                <a href="https://www.behance.net/nicolascastano" target="_blank">
+                  <img class="right-separator" src="assets/img/behance.svg" alt="Behance">
+                  <p>/nicolascastano</p>
+                </a>
+              </div>
+              <div class="distribute-item">
+                <a href="https://twitter.com/neeco90" target="_blank">
+                  <img class="right-separator" src="assets/img/twitter.svg" alt="Twitter">
+                  <p>@neeco90</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

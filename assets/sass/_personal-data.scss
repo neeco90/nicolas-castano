@@ -10,10 +10,21 @@
     color: $primary-two;
   }
 
+  .skills{
+    background-image: url(../../img/skills.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    p{
+      width: 170px;
+    }
+  }
+
   .dev-lang{
     background-image: url(../../img/code.png);
     background-repeat: no-repeat;
     background-position: 20% 0;
+    background-size: contain;
 
     .circle-chart{
       width: 60%;
@@ -30,8 +41,13 @@
     }
 
     &_container{
-      padding: 2rem 0;
       float: left;
     }
+  }
+
+  .personal{
+    background-image: url(../../img/personal.png);
+    background-repeat: no-repeat;
+    min-height: 250px;
   }
 }
