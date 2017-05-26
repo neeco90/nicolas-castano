@@ -49,7 +49,14 @@ function lineCharts(){
 
 function openMenu(){
     if(!$('.main-header_nav_menu-list').hasClass('opened')){
-        $('.main-header_nav_menu-list').toggleClass('opened');
+        $('.main-header_nav_menu-list').addClass('opened');
+        $('.main-header_nav_menu-list .opened').fadeIn("slow");
+    }
+}
+
+function closeMenu(){
+    if($('.main-header_nav_menu-list').hasClass('opened')){
+        $('.main-header_nav_menu-list').removeClass('opened');
     }
 }
 
