@@ -21,13 +21,27 @@
       background: transparent;
       box-shadow: none;
       padding: 2rem 3rem;
+      height: auto;
+
+      &.fixed{
+        position: fixed;
+        background-color: $tertiary;
+        z-index: 99999;
+        height: 100px;
+      }
 
       &_isologo-nav{
         width: 50px;
+        vertical-align: middle;
       }
 
       &_menu{
         cursor: pointer;
+        height: 50px;
+
+        &_icn{
+          vertical-align: middle;
+        }
 
         &-list{
           display: none;
@@ -36,7 +50,7 @@
           left: 0;
           width: 100%;
           min-height: calc(100% - 50px);
-          background-color: $primary-two;
+          background-color: rgba(0, 255, 168, .95);
 
           ul{
             margin: 0 auto;

@@ -78,11 +78,21 @@ body {
     .header .main-header_nav {
       background: transparent;
       box-shadow: none;
-      padding: 2rem 3rem; }
+      padding: 2rem 3rem;
+      height: auto; }
+      .header .main-header_nav.fixed {
+        position: fixed;
+        background-color: #121223;
+        z-index: 99999;
+        height: 100px; }
       .header .main-header_nav_isologo-nav {
-        width: 50px; }
+        width: 50px;
+        vertical-align: middle; }
       .header .main-header_nav_menu {
-        cursor: pointer; }
+        cursor: pointer;
+        height: 50px; }
+        .header .main-header_nav_menu_icn {
+          vertical-align: middle; }
         .header .main-header_nav_menu-list {
           display: none;
           position: absolute;
@@ -90,7 +100,7 @@ body {
           left: 0;
           width: 100%;
           min-height: calc(100% - 50px);
-          background-color: #00ffa8; }
+          background-color: rgba(0, 255, 168, 0.95); }
           .header .main-header_nav_menu-list ul {
             margin: 0 auto;
             text-align: center;
@@ -232,6 +242,9 @@ body {
     background-image: url(../../img/personal.png);
     background-repeat: no-repeat;
     min-height: 250px; }
+
+.progressbar-text {
+  text-align: right; }
 
 .contact-data {
   padding: 6rem 0 3rem 0; }
