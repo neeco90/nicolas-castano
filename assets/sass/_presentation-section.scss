@@ -27,11 +27,16 @@
 
     &_content{
       h3, h4{
-        color: $primary-one;
+        color: $secondary-one;
       }
 
       ul li{
         list-style-type: decimal;
+        color: $tertiary;
+      }
+
+      p{
+        color: $tertiary;
       }
     }
   }

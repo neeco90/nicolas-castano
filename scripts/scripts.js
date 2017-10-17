@@ -49,13 +49,19 @@ function lineCharts(){
 
 function openMenu(){
     if(!$('.main-header_nav_menu-list').hasClass('opened')){
-        $('.main-header_nav_menu-list').addClass('opened');
+        $('body').css('overflow-y','hidden');
+        $('.main-header_nav_menu-list').fadeIn('fast', function(){
+            $('.main-header_nav_menu-list').addClass('opened');
+        });
     }
 }
 
 function closeMenu(){
     if($('.main-header_nav_menu-list').hasClass('opened')){
-        $('.main-header_nav_menu-list').removeClass('opened');
+        $('body').css('overflow-y','auto');
+        $('.main-header_nav_menu-list').fadeOut('fast', function(){
+            $('.main-header_nav_menu-list').removeClass('opened');
+        });
     }
 }
 

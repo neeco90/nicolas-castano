@@ -94,7 +94,8 @@ body {
           .header .main-header_nav_menu-list ul {
             margin: 0 auto;
             text-align: center;
-            width: 50%; }
+            width: 50%;
+            padding-top: 10%; }
             .header .main-header_nav_menu-list ul li {
               padding: 1rem 0;
               float: none; }
@@ -113,7 +114,7 @@ body {
             height: 40px;
             position: absolute;
             top: 35px;
-            right: 40px;
+            right: 60px;
             cursor: pointer; }
             .header .main-header_nav_menu-list .menu-icon_close svg:hover {
               fill: white; }
@@ -181,9 +182,12 @@ body {
     .presentation_card .miscellany {
       background-color: #4c2484; }
     .presentation_card_content h3, .presentation_card_content .header .main-header_nav_menu-list ul li a, .header .main-header_nav_menu-list ul li .presentation_card_content a, .presentation_card_content h4 {
-      color: #7031ba; }
+      color: #4c2484; }
     .presentation_card_content ul li {
-      list-style-type: decimal; }
+      list-style-type: decimal;
+      color: #121223; }
+    .presentation_card_content p {
+      color: #121223; }
 
 .works .miscellany {
   background-color: #00c1a7; }
