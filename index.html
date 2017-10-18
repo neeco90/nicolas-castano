@@ -30,26 +30,28 @@
                 alt="Nicolás Castano">
               </div>
               <div class="main-header_nav_menu col s6 right-align">
-                <a onclick="openMenu()"><img class="main-header_nav_menu_icn" src="assets/img/menu-icon.svg"></a>
+                <a role="menu" onclick="openMenu()" tabindex="0" aria-label="Menú desplegable, presione enter para acceder al menú"><img class="main-header_nav_menu_icn" src="assets/img/menu-icon.svg"></a>
               </div>
               <div class="main-header_nav_menu-list valign-wrapper">
                 <ul>
-                  <li class="valign"><a onclick="closeMenu();" href="#header">home</a></li>
-                  <li class="valign"><a onclick="closeMenu();" href="#presentation">it's me nico!</a></li>
-                  <li class="valign"><a onclick="closeMenu();" href="#works">projects worked</a></li>
-                  <li class="valign"><a onclick="closeMenu();" href="#personalData">know my skills</a></li>
-                  <li class="valign"><a onclick="closeMenu();" href="#contact">do we chat?</a></li>
+                  <li class="valign"><a role="menu-item" onclick="closeMenu();" href="#header">home</a></li>
+                  <li class="valign"><a role="menu-item" onclick="closeMenu();" href="#presentation">it's me nico!</a></li>
+                  <li class="valign"><a role="menu-item" onclick="closeMenu();" href="#works">projects worked</a></li>
+                  <li class="valign"><a role="menu-item" onclick="closeMenu();" href="#personalData">know my skills</a></li>
+                  <li class="valign"><a role="menu-item" onclick="closeMenu();" href="#contact">do we chat?</a></li>
                 </ul>
                 <div class="menu-icon_close">
-                  <svg onclick="closeMenu()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" fill="#121223" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-                  <g><path d="M87.8,12.8c-1-1-2.6-1-3.5,0L50.5,46.5L15.8,11.7c-1-1-2.6-1-3.5,0c-1,1-1,2.6,0,3.5L47,50L12.2,84.8c-1,1-1,2.6,0,3.5   c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7l34.8-34.8l33.7,33.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5L54.1,50   l33.7-33.7C88.7,15.3,88.7,13.7,87.8,12.8z"/></g>
-                  </svg>
+                  <a onclick="closeMenu()" tabindex="0" aria-label="Menú desplegado, presione enter para cerrar">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" fill="#121223" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                    <g><path d="M87.8,12.8c-1-1-2.6-1-3.5,0L50.5,46.5L15.8,11.7c-1-1-2.6-1-3.5,0c-1,1-1,2.6,0,3.5L47,50L12.2,84.8c-1,1-1,2.6,0,3.5   c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7l34.8-34.8l33.7,33.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5L54.1,50   l33.7-33.7C88.7,15.3,88.7,13.7,87.8,12.8z"/></g>
+                    </svg>
+                  </a>  
                 </div>
               </div>
             </nav>
             <div class="row center-align main-header_title">
-              <div class="col s12">
-                <h3>Hi i'm nicolás castano</h3>
+              <div tabindex="1" class="col s12">
+                <h3>Hi, i'm nicolás castano</h3>
                 <h1 class="bold no-margin">designer + Front-End dev</h1>
               </div>
             </div>
@@ -63,27 +65,27 @@
             <div class="presentation_card-helper"></div>
             <div class="miscellany"></div>
             <div class="presentation_card_content col s12">
-              <h3>A guy with two passions</h3>
-              <p>Since my first steps, I discovered design as my first passion, that's why I became 
+              <h3 tabindex="0">A guy with two passions</h3>
+              <p tabindex="0">Since my first steps, I discovered design as my first passion, that's why I became 
                 graphic and web designer.</p>
               <br>
-              <p>But was not enough for me. Web fascinate me, so I started studying Front-End Development
+              <p tabindex="0">But was not enough for me. Web fascinate me, so I started studying Front-End Development
                 and that made me understand it was may second love.
               </p>
               <br>
-              <h4>latest work experience</h4>
+              <h4 tabindex="0">latest work experience</h4>
               <ul>
-                <li>Front-End Development at Lagash (2017-Actually)</li>
-                <li>Front-End Development at Technisys (2016-2017)</li>
-                <li>Brand identity designer -freelance- for companies like Amplification Labs, Quantum Factory, Geo Deco, and more.</li>
-                <li>Front-End Development at Enfoke (2015-2016)</li>
+                <li tabindex="0">Front-End Development at Lagash (2017-Actually)</li>
+                <li tabindex="0">Front-End Development at Technisys (2016-2017)</li>
+                <li tabindex="0">Brand identity designer -freelance- for companies like Amplification Labs, Quantum Factory, Geo Deco, and more.</li>
+                <li tabindex="0">Front-End Development at Enfoke (2015-2016)</li>
               </ul>
               <br>
-              <h4>studies</h4>
+              <h4 tabindex="0">studies</h4>
               <ul>
-                <li>Front-End Development (2015)</li>
-                <li>Advertising Degree (2015)</li>
-                <li>Design & Advertising Promotion Technician (2009)</li>
+                <li tabindex="0">Front-End Development (2015)</li>
+                <li tabindex="0">Advertising Degree (2015)</li>
+                <li tabindex="0">Design & Advertising Promotion Technician (2009)</li>
               </ul>
               <br>
             </div>
@@ -96,19 +98,19 @@
         <div class="works">
           <div class="miscellany"></div>
           <div class="works_content col s12">
-            <h3>Projects worked</h3>
+            <h3 tabindex="0">Projects worked</h3>
             <div class="works_content_container-item">
               <div class="row distribute-layout">
-                <div class="distribute-item"><img src="assets/img/macro.png" alt="Banco Macro"></div>
-                <div class="distribute-item"><img src="assets/img/eges.png" alt="Management health system EGeS"></div>
-                <div class="distribute-item"><img src="assets/img/amplabs.png" alt="Amplification Labs"></div>
-                <div class="distribute-item"><img src="assets/img/quantum.png" alt="Quantum Factory"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/macro.png" alt="Banco Macro"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/eges.png" alt="Management health system EGeS"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/amplabs.png" alt="Amplification Labs"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/quantum.png" alt="Quantum Factory"></div>
               </div>
               <div class="row distribute-layout">
-                <div class="distribute-item"><img src="assets/img/flechabus.png" alt="Flecha Bus"></div>
-                <div class="distribute-item"><img src="assets/img/geodeco.png" alt="Geo Deco"></div>
-                <div class="distribute-item"><img src="assets/img/largadistancia.png" alt="Larga Distancia Rock"></div>
-                <div class="distribute-item"><img src="assets/img/tuservicio.png" alt="Tu Servicio"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/flechabus.png" alt="Flecha Bus"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/geodeco.png" alt="Geo Deco"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/largadistancia.png" alt="Larga Distancia Rock"></div>
+                <div class="distribute-item"><img tabindex="0" src="assets/img/tuservicio.png" alt="Tu Servicio"></div>
               </div>
             </div>
           </div>
@@ -121,10 +123,10 @@
           <div class="row">
             <div class="col m6 s12 skills">
               <div class="miscellany"></div>
-              <h3>Mi skills</h3>
+              <h3 tabindex="0">Mi skills</h3>
               <div class="valign-wrapper row">
                 <div class="valign">
-                  <p>Adobe Illustrator</p>
+                  <p tabindex="0">Adobe Illustrator</p>
                 </div>
                 <div class="valign">
                   <div id="illustrator"></div>
@@ -132,7 +134,7 @@
               </div>
               <div class="valign-wrapper row">
                 <div class="valign">
-                  <p>Adobe Photoshop</p>
+                  <p tabindex="0">Adobe Photoshop</p>
                 </div>
                 <div class="valign">
                   <div id="photoshop"></div>
@@ -140,7 +142,7 @@
               </div>
               <div class="valign-wrapper row">
                 <div class="valign">
-                  <p>Adobe Experience Design</p>
+                  <p tabindex="0">Adobe Experience Design</p>
                 </div>
                 <div class="valign">
                   <div id="xd"></div>
@@ -148,7 +150,7 @@
               </div>
               <div class="valign-wrapper row">
                 <div class="valign">
-                  <p>UI/UX Design</p>
+                  <p tabindex="0">UI/UX Design</p>
                 </div>
                 <div class="valign">
                   <div id="uidesign"></div>
@@ -156,7 +158,7 @@
               </div>
               <div class="valign-wrapper row">
                 <div class="valign">
-                  <p>Accesibility web</p>
+                  <p tabindex="0">Accesibility web</p>
                 </div>
                 <div class="valign">
                   <div id="accesibility"></div>
@@ -164,7 +166,7 @@
               </div>
               <div class="valign-wrapper row">
                 <div class="valign">
-                  <p>Branding</p>
+                  <p tabindex="0">Branding</p>
                 </div>
                 <div class="valign">
                   <div id="branding"></div>
@@ -173,24 +175,24 @@
             </div>
             <div class="col m6 s12 dev-lang">
               <div class="miscellany"></div>
-              <h3>Development</h3>
+              <h3 tabindex="0">Development</h3>
               <div class="dev-lang_container content">
                 <div class="col s4">
                   <div id="html" class="circle-chart"></div>
                   <div class="circle-chart_text center-align">
-                    <p>HTML5</p>
+                    <p tabindex="0">HTML5</p>
                   </div>
                 </div>
                 <div class="col s4">
                   <div id="css" class="circle-chart"></div>
                   <div class="circle-chart_text center-align">
-                    <p>CSS<br>SASS/LESS</p>
+                    <p tabindex="0">CSS<br>SASS/LESS</p>
                   </div>
                 </div>
                 <div class="col s4">
                   <div id="js" class="circle-chart"></div>
                   <div class="circle-chart_text center-align">
-                    <p>JS<br>JQuery</p>
+                    <p tabindex="0">JS<br>JQuery</p>
                   </div>
                 </div>
               </div>
@@ -199,13 +201,13 @@
           <div class="row no-margin">
             <div class="col m6 s12 personal">
               <div class="miscellany"></div>
-              <h3>Personal data</h3>
+              <h3 tabindex="0">Personal data</h3>
               <div class="content row valign-wrapper">
                 <div class="valign right-separator">
                   <img src="assets/img/location.svg" alt="Placement">
                 </div>
                 <div class="valign">
-                  <p>Buenos Aires, Argentina</p>
+                  <p tabindex="0">Buenos Aires, Argentina</p>
                 </div>
               </div>
               <div class="valign-wrapper">
@@ -213,23 +215,23 @@
                   <img src="assets/img/languages.png" alt="Languages">
                 </div>
                 <div class="valign">
-                  <p>Spanish & english</p>
+                  <p tabindex="0">Spanish & english</p>
                 </div>
               </div>
             </div>
             <div class="col m6 s12 frwks">
               <div class="valign-wrapper">
                 <div class="valign">
-                  <h4>Frameworks</h4>
+                  <h4 tabindex="0">Frameworks</h4>
                 </div>
                 <div class="valign left-separator">
                   <img src="assets/img/heart.svg">
                 </div>
               </div>
-              <p>Materialize CSS</p>
-              <p>Material Design Lite</p>
-              <p>Bootstrap</p>
-              <p>Angular</p>
+              <p tabindex="0">Materialize CSS</p>
+              <p tabindex="0">Material Design Lite</p>
+              <p tabindex="0">Bootstrap</p>
+              <p tabindex="0">Angular</p>
             </div>
           </div>
         </div>      
@@ -239,16 +241,16 @@
       <div class="contact">
         <div class="container-section">
           <div class="center-align row">
-            <h3>Wanna talk with me?</h3>
-            <h1 class="bold no-margin capitalize">Let's chat!</h1>
+            <h3 tabindex="0">Wanna talk with me?</h3>
+            <h1 tabindex="0" class="bold no-margin capitalize">Let's chat!</h1>
           </div>
           <div class="contact-data">
             <div class="distribute-layout">
-              <div class="distribute-item">
+              <div tabindex="0" class="distribute-item">
                 <img class="right-separator" src="assets/img/phone.svg" alt="Telephone">
                 <p>+54 11-3097-2100</p>
               </div>
-              <div class="distribute-item">
+              <div tabindex="0" class="distribute-item">
                 <img class="right-separator" src="assets/img/mail.svg" alt="e-mail">
                 <p>neeco90@gmail.com</p>
               </div>

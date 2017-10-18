@@ -20,14 +20,20 @@
     &_nav{
       background: transparent;
       box-shadow: none;
-      padding: 2rem 3rem;
+      padding: 1.5rem 3rem;
       height: auto;
 
       &.fixed{
         position: fixed;
         background-color: $tertiary;
         z-index: 99999;
-        height: 100px;
+        height: 85px;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+      }
+
+      &_logo{
+        height: 40px;
+        line-height: 40px;
       }
 
       &_isologo-nav{
@@ -37,7 +43,8 @@
 
       &_menu{
         cursor: pointer;
-        height: 50px;
+        height: 40px;
+        line-height: 40px;
 
         &_icn{
           vertical-align: middle;
@@ -45,11 +52,11 @@
 
         &-list{
           display: none;
-          position: absolute;
+          position: fixed;
           top: 0;
           left: 0;
           width: 100%;
-          min-height: calc(100% - 50px);
+          min-height: 100%;
           background-color: rgba(0, 255, 168, .95);
 
           ul{
@@ -83,8 +90,8 @@
             width: 40px;
             height: 40px;
             position: absolute;
-            top: 35px;
-            right: 60px;
+            top: 25px;
+            right: 55px;
             cursor: pointer;
 
             svg:hover{

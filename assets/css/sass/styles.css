@@ -78,28 +78,33 @@ body {
     .header .main-header_nav {
       background: transparent;
       box-shadow: none;
-      padding: 2rem 3rem;
+      padding: 1.5rem 3rem;
       height: auto; }
       .header .main-header_nav.fixed {
         position: fixed;
         background-color: #121223;
         z-index: 99999;
-        height: 100px; }
+        height: 85px;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
+      .header .main-header_nav_logo {
+        height: 40px;
+        line-height: 40px; }
       .header .main-header_nav_isologo-nav {
         width: 50px;
         vertical-align: middle; }
       .header .main-header_nav_menu {
         cursor: pointer;
-        height: 50px; }
+        height: 40px;
+        line-height: 40px; }
         .header .main-header_nav_menu_icn {
           vertical-align: middle; }
         .header .main-header_nav_menu-list {
           display: none;
-          position: absolute;
+          position: fixed;
           top: 0;
           left: 0;
           width: 100%;
-          min-height: calc(100% - 50px);
+          min-height: 100%;
           background-color: rgba(0, 255, 168, 0.95); }
           .header .main-header_nav_menu-list ul {
             margin: 0 auto;
@@ -123,8 +128,8 @@ body {
             width: 40px;
             height: 40px;
             position: absolute;
-            top: 35px;
-            right: 60px;
+            top: 25px;
+            right: 55px;
             cursor: pointer; }
             .header .main-header_nav_menu-list .menu-icon_close svg:hover {
               fill: white; }
