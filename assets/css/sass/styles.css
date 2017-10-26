@@ -86,12 +86,20 @@ body {
         z-index: 99999;
         height: 85px;
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
+        .header .main-header_nav.fixed .main-header_nav_title {
+          display: block; }
+          .header .main-header_nav.fixed .main-header_nav_title h4 {
+            margin: 0;
+            line-height: 40px;
+            text-align: center; }
       .header .main-header_nav_logo {
         height: 40px;
         line-height: 40px; }
       .header .main-header_nav_isologo-nav {
         width: 50px;
         vertical-align: middle; }
+      .header .main-header_nav_title {
+        display: none; }
       .header .main-header_nav_menu {
         cursor: pointer;
         height: 40px;
