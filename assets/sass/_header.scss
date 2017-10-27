@@ -27,7 +27,6 @@
         position: fixed;
         background-color: $tertiary;
         z-index: 99999;
-        height: 85px;
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
         
         .main-header_nav_title{
@@ -70,8 +69,9 @@
           top: 0;
           left: 0;
           width: 100%;
-          min-height: 100%;
+          min-height: 101%;
           background-color: rgba(0, 255, 168, .95);
+          z-index: 9999;
 
           ul{
             margin: 0 auto;

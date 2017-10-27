@@ -1,10 +1,71 @@
-// FOR TABLETS
-@media screen and (min-width: 451px) and (max-width: 768px){
+//FOR 1024PX
+@media screen and (max-width: 1024px){
+  html{
+    font-size: 14px;
+  }
+
   //HEADER SECTION
   .header{
-    .main-header{
-      &_title{
-        height: 50%;
+    .main-header_nav_menu-list{
+      .menu-icon_close{
+        top: 20px;
+        right: 40px
+      }
+    }
+
+    #bkg-header-container{
+      #bkg-header-logo{
+        left: 22%;
+      }
+    }
+  }
+
+  //PROJECTS WORKED SECTION
+  .works{  
+    &_content{  
+      &_container-item{  
+        img{
+          width: 10rem;
+        }
+      }
+    }
+  }
+}
+
+// FOR TABLETS
+@media screen and (min-width: 451px) and (max-width: 768px){
+  html{
+    font-size: 10px;
+  }
+
+  p, li{
+    font-size: 1.7rem;
+  }
+
+  .personal-data{
+    .skills, .dev-lang{
+      margin-bottom: 30px;
+    }
+
+    .dev-lang{
+      .circle-chart{
+        .progressbar-text{
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+
+  .progressbar-text{
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-height: 1000px){
+  .header{
+    .main-header_nav_menu-list{
+      ul{
+        padding-top: 50%;
       }
     }
   }
@@ -15,13 +76,23 @@
   //HEADER SECTION
   .header{
     #bkg-header-container{
-      height: auto;
-
       #bkg-header-logo{
         top: 0;
         left: 0;
         background-position: center !important;
         background-size: 60%;
+      }
+    }
+
+    .main-header_nav_menu-list{
+      .menu-icon_close{
+        top: 20px;
+        right: 35px
+      }
+
+      ul{
+        width: 100%;
+        padding-top: 50%;
       }
     }
   }
@@ -33,16 +104,33 @@
       display: none;
     }
   }
+
+  //CONTACT SECTION
+  .contact-data{
+    .distribute-layout{
+      border-collapse: separate;
+      border-spacing: 35px;
+
+      .distribute-item{
+        display: table-row;
+        margin-bottom: 10px;
+      }
+    }
+  }
 }
 
 // FOR SMARTPHONES
 @media screen and (max-width: 450px){
+  html{
+    font-size: 12px;
+  }
+
   body{
     height: 100%;
   }
 
   h1{
-    font-size: 55px;
+    font-size: 3.5rem;
   }
   
   //HEADER SECTION
@@ -50,18 +138,58 @@
     min-height: 100%;
 
     #bkg-header-container{
+      top: 5%;
+
       #bkg-header-logo{
         background-size: 80%;
+      }
+    }
+
+    .main-header_nav_title{
+      display: none !important;
+    }
+
+    .main-header_nav_menu-list{
+      .menu-icon_close{
+        top: 20px;
+        right: 35px
+      }
+
+      ul{
+        width: 100%;
+        padding-top: 50%;
       }
     }
   }
 
   .container-section{
-    padding: 5rem 4rem 2rem 4rem;
+    padding: 5rem 4rem 5rem 4rem;
   }
 
   //PRESENTATION SECTION
   .presentation_card{
     height: auto;
+  }
+
+  //PROJECTS WORKED SECTION
+  .works{  
+    &_content{  
+      &_container-item{  
+        img{
+          width: 5rem;
+        }
+      }
+    }
+  }
+
+  //PERSONAL DATA SECTION
+  .personal-data{
+    .dev-lang{
+      .circle-chart{
+        .progressbar-text{
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }

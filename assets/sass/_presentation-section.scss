@@ -11,6 +11,10 @@
     background: linear-gradient(to bottom,  $primary-two 0%,$secondary-two 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffa8', endColorstr='#00c1a7',GradientType=0 );
 
+    &_container{
+      float: left;
+    }
+
     &-helper{
       background-image: url(../../img/presentation-polygon.png);
       background-repeat: no-repeat;
