@@ -1,0 +1,49 @@
+body{
+  background-color: $tertiary;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.container-section{
+  padding: 10rem 8rem 4rem 8rem;
+}
+
+.no-margin{
+  margin: 0 !important;
+}
+
+.miscellany{
+  width: 200px;
+  height: 10px;
+}
+
+.distribute-layout{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 50px;
+
+  .distribute-item{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
+.left-separator{
+  margin-left: 10px;
+}
+
+.right-separator{
+  margin-right: 10px;
+}
+
+.content{
+  padding-top: 2rem;
+}

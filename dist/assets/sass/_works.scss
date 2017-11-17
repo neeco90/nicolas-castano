@@ -1,0 +1,23 @@
+.works{
+  .miscellany{
+    background-color: $secondary-two;
+  }
+
+  &_content{
+    h3{
+      color: $primary-two;
+    }
+
+    &_container-item{
+      padding: 2rem 0;
+
+      img{
+        opacity: .5;
+      }
+
+      .distribute-item{
+        width: 25%;
+      }
+    }
+  }
+}

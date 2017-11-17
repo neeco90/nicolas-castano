@@ -1,0 +1,152 @@
+@mixin bkg-parallax{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.header{
+  min-height: 680px;
+  position: relative;
+
+  .main-header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    &_nav{
+      background: transparent;
+      box-shadow: none;
+      padding: 1.5rem 3rem;
+      height: auto;
+
+      &.fixed{
+        position: fixed;
+        background-color: $tertiary;
+        z-index: 99999;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+        
+        .main-header_nav_title{
+          display: block;
+          
+          h4{
+            margin: 0;
+            line-height: 40px;
+            text-align: center;
+          }
+        }
+      }
+
+      &_logo{
+        height: 40px;
+        line-height: 40px;
+      }
+
+      &_isologo-nav{
+        width: 50px;
+        vertical-align: middle;
+      }
+
+      &_title{
+        display: none;
+      }
+
+      &_menu{
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+
+        &_icn{
+          vertical-align: middle;
+        }
+
+        &-list{
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          min-height: 101%;
+          background-color: rgba(0, 255, 168, .95);
+          z-index: 9999;
+
+          ul{
+            margin: 0 auto;
+            text-align: center;
+            width: 50%;
+            padding-top: 10%;
+
+            li{
+              padding: 1rem 0;
+              float: none;
+
+              a{
+                color: $tertiary;
+                @extend h3;
+                transition: all 0.5s;
+                display: inline;
+                padding: .5rem 2.5rem;
+                border: 1px solid transparent;
+                              
+                &:hover{
+                  color: $primary-one;
+                  background-color: transparent;
+                  border: 4px solid white;
+                }
+              }
+            }
+          }
+
+          .menu-icon_close{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 25px;
+            right: 55px;
+            cursor: pointer;
+
+            svg:hover{
+              fill: white;
+            }
+          }
+          
+          &.opened{
+            display: block;
+          }
+        }
+      }
+    }
+
+    &_title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: calc(100% - 150px);
+      padding: 2rem;
+    }
+  }
+
+  #bkg-header-container{
+    @include bkg-parallax;
+    
+    #bkg-header-forms{
+      background-image: url('../../img/background-parallax.png');
+      background-size: contain;
+      opacity: .5;
+      @include bkg-parallax;
+    }
+
+    #bkg-header-logo{
+      background-image: url('../../img/isologo-header.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      @include bkg-parallax;
+      top: 20%;
+      left: 27%;
+    }
+  }
+}

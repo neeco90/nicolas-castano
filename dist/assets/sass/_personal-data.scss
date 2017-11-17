@@ -1,0 +1,57 @@
+.personal-data{
+  background-color: $primary-one;
+  width: 100%;
+
+  .miscellany{
+    background-color: $secondary-one;
+  }
+
+  h3, h4{
+    color: $primary-two;
+  }
+
+  .skills{
+    background-image: url(../../img/skills.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    p{
+      width: 170px;
+    }
+  }
+
+  .dev-lang{
+    background-image: url(../../img/code.png);
+    background-repeat: no-repeat;
+    background-position: 20% 0;
+    background-size: contain;
+
+    .circle-chart{
+      width: 60%;
+
+      .progressbar-text{
+        @extend h2;
+        color: white !important;
+      }
+
+      &_text{
+        @extend .circle-chart;
+        margin-top: 1rem;
+      }
+    }
+
+    &_container{
+      float: left;
+    }
+  }
+
+  .personal{
+    background-image: url(../../img/personal.png);
+    background-repeat: no-repeat;
+    min-height: 250px;
+  }
+}
+
+.progressbar-text{
+  text-align: right;
+}

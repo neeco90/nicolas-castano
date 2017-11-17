@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480.019px" height="364.555px" viewBox="0 0 480.019 364.555" enable-background="new 0 0 480.019 364.555"
+	 xml:space="preserve">
+<symbol  id="Isotiponew" viewBox="-130 -97.793 260 197.586">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.0161" y1="-97.9868" x2="169.9676" y2="40.9192">
+		<stop  offset="0" style="stop-color:#00FFA8"/>
+		<stop  offset="0.2441" style="stop-color:#32B5C1"/>
+		<stop  offset="0.5168" style="stop-color:#6568DC"/>
+		<stop  offset="0.7427" style="stop-color:#8A30EF"/>
+		<stop  offset="0.9097" style="stop-color:#A10DFB"/>
+		<stop  offset="0.9996" style="stop-color:#AA00FF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M128.884-96.208L-61.668-51.611L129.111,99.793L128.884-96.208z M-52.91-49.648l177.893-41.634
+		l0.213,182.98L-52.91-49.648z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-33.8472" y1="75.4976" x2="-110.6593" y2="-57.545">
+		<stop  offset="0" style="stop-color:#00FFA8"/>
+		<stop  offset="0.2441" style="stop-color:#32B5C1"/>
+		<stop  offset="0.5168" style="stop-color:#6568DC"/>
+		<stop  offset="0.7427" style="stop-color:#8A30EF"/>
+		<stop  offset="0.9097" style="stop-color:#A10DFB"/>
+		<stop  offset="0.9996" style="stop-color:#AA00FF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M-129.113-97.793l0.231,196.003L61.666,53.613L-129.113-97.793z M-124.982,93.285l-0.215-182.982
+		L52.91,51.65L-124.982,93.285z"/>
+	<polygon display="none" fill="none" points="-130,99 130,99 130,-97 -130,-97 	"/>
+</symbol>
+<use xlink:href="#Isotiponew"  width="260" height="197.586" id="XMLID_2_" x="-130" y="-97.793" transform="matrix(1.8463 0 0 -1.8463 240 184)" overflow="visible"/>
+</svg>
